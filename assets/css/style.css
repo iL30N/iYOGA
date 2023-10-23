@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color:#3a3a3a;
+}
 
 
 
@@ -13,6 +19,7 @@ header {
 
 main {
     background-color:lightblue ;
+    flex:auto ;
 }
 
 footer{
