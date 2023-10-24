@@ -49,6 +49,7 @@ header a {
 
 #menu > li {
     margin-bottom: 1em;
+    
 }
 
 .active {
@@ -81,6 +82,7 @@ nav {
 main {
     background-color: lightblue;
     flex: auto;
+    margin-top: 47px;
 }
 
 footer {
