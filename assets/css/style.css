@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -10,12 +10,15 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color:#3a3a3a;
+    color: #3a3a3a;
     font-family: 'lato', sans-serif;
 }
 
 h1 {
     font-family: 'oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
 }
 
 
@@ -29,11 +32,17 @@ header {
 
 }
 
-main {
-    background-color: lightblue; 
-    flex:auto ;
+header a {
+
+    text-decoration: none;
+    color: inherit;
 }
 
-footer{
-    background-color:orange ;
+main {
+    background-color: lightblue;
+    flex: auto;
+}
+
+footer {
+    background-color: orange;
 }
